@@ -1,0 +1,27 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+}
+
+/* .calculator__container {
+    width: 350px;
+} */
+
+.calculator__fieldset {
+    border: none;
+}
+
+.calculator__input {
+    width: 95px;
+    color: #000000;
+}
+
+.button__calculator {
+    background: none;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class="wrapper">
+        <section class="calculator">
+            <div class="calculator__container">
+                <form class="calculator__form" id="MyForm">
+                    <fieldset class="calculator__fieldset">
+                        <input type="text" class="calculator__input" name="number_one" id="number1" placeholder="5">
+
+                        <select name="operators" id="operators">
+                            <option value="sum">+</option>
+                            <option value="subst">-</option>
+                            <option value="multi">*</option>
+                            <option value="division">/</option>
+                        </select>
+
+                        <input type="text" class="calculator__input" name="number_two" id="number2" placeholder="5">
+
+                        <button type="submit" class="button__calculator">=</button>
+
+                        <span class="calculator__result">10</span>
+                    </fieldset>
+                </form>
+                <ul class="calculator__result" id="list"></ul>
+            </div>
+        </section>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
